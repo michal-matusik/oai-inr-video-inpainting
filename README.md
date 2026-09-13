@@ -1,7 +1,6 @@
 # Reconstructed INR Video Inpainting - Polish AI Olympiad II Final
 
 This repository is a reconstructed reference solution for the final-stage INR video inpainting task in the Polish Artificial Intelligence Olympiad.
-It is not the author's original competition submission.
 
 The solution exposes missing video pixels as a function of normalized x, y, and time coordinates.
 Its validated baseline reconstructs unseen timestamps by interpolating the nearest observed RGB and mask fields.
