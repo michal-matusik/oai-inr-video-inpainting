@@ -7,6 +7,10 @@ The solution models missing video pixels as a continuous function of normalized 
 It uses Fourier features and a SIREN-style MLP with separate RGB and segmentation-mask heads.
 Training samples observed pixels and uses RGB MSE plus mask binary cross-entropy.
 
+![Implicit neural representation illustration](assets/task-inr-diagram.jpg)
+
+*INR illustration referenced by the official Polish AI Olympiad II final notebook.*
+
 ## Quick start
 
 Install `requirements.txt`, then run `python -m unittest discover -s tests -v`.
